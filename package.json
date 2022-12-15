@@ -1,0 +1,26 @@
+{
+  "name": "peel-github-issue-scraper",
+  "version": "1.0.0",
+  "description": "Tool to scrape Github issues and write to a Notion DB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "peel-github-issue-scrape": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "tool"
+  ],
+  "author": "Lachlan McCulloch",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.2",
+    "@octokit/core": "^4.1.0",
+    "@tryfabric/martian": "^1.2.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
